@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className='contenedor-principal'>
-        <h1>Poemas by Animales</h1>
+        <div className='title-container'>
+        <h1>Poemas by Animals</h1>
+        </div>
         <Testimonio 
           nombre='Fer El Panda'
           pais='China'
